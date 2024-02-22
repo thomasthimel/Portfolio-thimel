@@ -1,0 +1,218 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 0.7960434173669468) 0%,
+    rgba(9, 53, 121, 0.768032212885154) 27%,
+    rgba(67, 155, 167, 1) 100%
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+h1 {
+  font-size: 48px;
+  color: white;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 1024px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+nav {
+  height: 100px;
+  display: flex;
+}
+nav a {
+  height: 100px;
+  font-size: 20px;
+  color: #190f33;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #439ba7;
+  cursor: pointer;
+}
+.ordina {
+  height: 400px;
+  width: 1024px;
+  object-fit: cover;
+}
+section {
+  padding: 100px;
+}
+#education,
+#contact {
+  background-color: #aed7db77;
+}
+.information {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.information img {
+  height: 250px;
+  width: 250px;
+  border: solid 5px;
+  border-color: #cf8719;
+  border-radius: 50%;
+  object-position: left;
+  object-fit: cover;
+  margin-right: 80px;
+}
+#about p {
+  line-height: 50px;
+}
+.name {
+  font-size: 40px;
+  font-weight: bold;
+}
+.age {
+  font-size: 25px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 26px;
+  color: #190f33;
+  margin-bottom: 40px;
+}
+.resume {
+  font-size: 20px;
+}
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 80px;
+  text-align: center;
+}
+h2,
+h3 {
+  color: #190f33;
+  font-weight: bold;
+}
+#education p {
+  text-align: center;
+  line-height: 30px;
+}
+#education img {
+  height: 100px;
+}
+#education div {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+#education span {
+  font-weight: bold;
+}
+#projects p {
+  text-align: center;
+  line-height: 30px;
+}
+#project img {
+  width: 500px;
+  margin-right: 60px;
+}
+h4 {
+  font-size: 18px;
+  color: #190f33;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+li {
+  list-style-type: disc;
+  line-height: 30px;
+}
+.tripadvisor {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tripadvisor img {
+  width: 500px;
+  margin-right: 60px;
+}
+.deliveroo {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deliveroo img {
+  width: 500px;
+  margin-right: 60px;
+}
+.vinted {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vinted img {
+  width: 500px;
+  margin-right: 60px;
+}
+.airbnb {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.airbnb img {
+  width: 500px;
+  margin-right: 60px;
+}
+#contact div {
+  height: 50px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+#contact img {
+  height: 30px;
+  margin-right: 30px;
+}
+#contact a {
+  color: #190f33;
+  text-decoration: none;
+}
+#contact a:hover {
+  color: #439ba7;
+  cursor: pointer;
+}
+footer {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer p {
+  color: #c0f5fce3;
+  margin: 15px;
+}
+footer a {
+  color: #fdc064;
+  text-decoration: none;
+  margin: 15px;
+}
+footer a:hover {
+  color: #190f33;
+}
